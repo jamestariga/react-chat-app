@@ -3,7 +3,7 @@ import 'firebase/compat/auth'
 
 export const auth = firebase
   .initializeApp({
-    apiKey: 'AIzaSyDzzXLQDqUsILUtdZGXAXIfszNA9eDNvgg',
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: 'chatrr-a96cc.firebaseapp.com',
     projectId: 'chatrr-a96cc',
     storageBucket: 'chatrr-a96cc.appspot.com',
